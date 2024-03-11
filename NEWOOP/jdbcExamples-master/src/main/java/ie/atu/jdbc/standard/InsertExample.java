@@ -7,7 +7,7 @@ public class InsertExample {
     public static void main(String[] args) throws SQLException {
 
         // Connect to the database
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/exampledatabase", "root", "password");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testbase", "root", "root");
 
         try {
 
