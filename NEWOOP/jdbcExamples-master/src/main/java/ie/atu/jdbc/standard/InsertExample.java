@@ -13,8 +13,8 @@ public class InsertExample {
 
             // Insert a new record into the "users" table
             PreparedStatement stmt = conn.prepareStatement("INSERT INTO customer (name, email) VALUES (?, ?)");
-            stmt.setString(1, "Jack");
-            stmt.setString(2, "@Jacksemail");
+            stmt.setString(1, "Fred");
+            stmt.setString(2, "@Fredsemail");
             stmt.executeUpdate();
 
             // Insert a new record into the "emails" table, referencing the new user
